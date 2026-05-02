@@ -46,6 +46,8 @@ A **high-performance, numerically stable Machine Learning library written in pur
 
 ## Project Structure
 
+``` 
+
 Numerical-ML-in-C/
 │
 ├── 📄 CMakeLists.txt              # CMake build configuration
