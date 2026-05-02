@@ -4,12 +4,7 @@
 #include "../core/Matrix.h"
 #include "../core/vector.h"
 #include "random.h"
-#include "../../src/core/memory.h"
-#include "tree.h"
-#include "../Models/argsort.h"
-#include <math.h>
-#include <string.h>
-
+#include "../core/memory.h"
 
 typedef enum { CRITERION_GINI, CRITERION_ENTROPY, CRITERION_MSE } Criterion;
 typedef struct {

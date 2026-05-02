@@ -1,6 +1,8 @@
+/* ── tree.c ── */
 #include "tree.h"
-
-
+#include "../models/argsort.h"
+#include <math.h>
+#include <string.h>
 
 static double gini(const int *counts, int n_classes, int total) {
     if (total == 0) return 0.0;

@@ -1,12 +1,9 @@
 #ifndef LOGISTIC_REGRESSION_H
 #define LOGISTIC_REGRESSION_H
 
-#include "../../src/core/Matrix.h"
-#include "../../src/core/vector.h"
+#include "../core/Matrix.h"
+#include "../core/vector.h"
 #include "../numerical/gradient.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
 
 typedef struct {
     Vector         *weights;

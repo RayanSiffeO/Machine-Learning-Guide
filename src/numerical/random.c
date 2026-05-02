@@ -1,5 +1,6 @@
 #include "random.h"
-
+#include "../core/memory.h"
+#include <string.h>
 
 #define MT_N 624
 #define MT_M 397

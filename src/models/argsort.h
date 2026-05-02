@@ -1,7 +1,5 @@
 #ifndef ARGSORT_H
 #define ARGSORT_H
-#define _GNU_SOURCE  
-#include <stdlib.h>
 
 void argsort_double(const double *arr, int n, int *indices);
 

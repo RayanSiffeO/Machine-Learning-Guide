@@ -1,11 +1,8 @@
 #ifndef GRADIENT_H
 #define GRADIENT_H
 
-#include "../../src/core/Matrix.h"
-#include "../../src/core/vector.h"
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include "../core/Matrix.h"
+#include "../core/vector.h"
 
 typedef enum {
     OPTIM_SGD,

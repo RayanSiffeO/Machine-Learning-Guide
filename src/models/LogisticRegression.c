@@ -1,5 +1,7 @@
 #include "LogisticRegression.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 double logistic_bce_loss(const Matrix *X, const Vector *y, const Vector *w, Vector *grad_out) {
     if (!X || !y || !w) return -1.0;

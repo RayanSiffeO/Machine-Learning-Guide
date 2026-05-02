@@ -3,10 +3,8 @@
 
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
-#include <stdio.h>
-#include "../../src/core/Matrix.h"
-#include "../../src/core/vector.h"
+#include "../core/Matrix.h"
+#include "../core/vector.h"
 
 #ifndef SVD_MAX_ITER
 #  define SVD_MAX_ITER 100

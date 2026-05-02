@@ -3,9 +3,7 @@
 
 #include <stdint.h>
 #include "../core/vector.h"
-#include "../../src/core/memory.h"
 #include <stdlib.h>
-#include <string.h>
 
 #define MT_N 624
 

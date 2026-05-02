@@ -4,9 +4,9 @@
 #include <math.h>
 #include <assert.h>
 
-#include "build/Models/LinearRegression.h"
-#include "src/core/Matrix.h"
-#include "src/core/vector.h"
+#include "../src/models/LinearRegression.h"
+#include "../src/core/Matrix.h"
+#include "../src/core/vector.h"
 
 //── Lector de CSV ──────────────────────────────────────────────────────── 
 

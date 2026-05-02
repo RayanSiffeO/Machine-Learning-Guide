@@ -1,5 +1,6 @@
 #include "SVD.h"
-
+#include <string.h>
+#include <stdio.h>
 
 static double nr_sign(double a, double b) { return b >= 0.0 ?  fabs(a) : -fabs(a); }
 static double nr_sqr (double x)           { return x * x; }

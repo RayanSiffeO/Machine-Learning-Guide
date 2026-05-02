@@ -1,5 +1,7 @@
 #include "gradient.h"
-
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 OptimizerConfig optimizer_config_sgd(double lr) {
     return (OptimizerConfig){

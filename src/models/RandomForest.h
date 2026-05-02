@@ -1,11 +1,10 @@
 #ifndef RANDOM_FOREST_H
 #define RANDOM_FOREST_H
 
-#include "tree.h"
+#include "../numerical/tree.h"
 #include "../core/Matrix.h"
 #include "../core/vector.h"
-#include "../../src/core/memory.h"
-#include <math.h>
+#include "../core/memory.h"
 
 typedef struct {
     int       n_estimators;

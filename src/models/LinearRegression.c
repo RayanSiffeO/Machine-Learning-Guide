@@ -1,5 +1,6 @@
 #include "LinearRegression.h"
-
+#include <stdio.h>
+#include <stdlib.h>
  
 LinearModel* linear_regression_create(double tol) {
     LinearModel *m = (LinearModel *)calloc(1, sizeof(LinearModel));

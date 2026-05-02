@@ -1,5 +1,5 @@
 #include "RandomForest.h"
-
+#include <math.h>
 
 static int compute_n_classes(const Vector *y) {
     int max_cls = 0;
@@ -171,6 +171,15 @@ Matrix* rf_predict_proba(const RandomForest *rf, const Matrix *X) {
 
     matrix_scale(proba, 1.0 / rf->n_trees_fitted);
     return proba;
+}
+
+static double accuracy_metric(const Vector *y_true, const Vector *y_pred) {
+    if (!y_true || !y_pred || y_true->size != y_pred->size) return NAN;
+    int correct = 0;
+    for (int i = 0; i < y_true->size; i++)
+        if ((int)round(y_true->data[i]) == (int)round(y_pred->data[i]))
+            correct++;
+    return (double)correct / y_true->size;
 }
 
 double rf_score(const RandomForest *rf, const Matrix *X, const Vector *y) {
