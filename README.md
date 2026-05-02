@@ -109,6 +109,15 @@ Numerical-ML-in-C/
  
 ---
 
+## Contributions
+
+If you find any errors in the documentation or bugs in the code, I would greatly appreciate it if you submitted a pull request so I can fix them. I'll take the time to check them.
+
+## Requirements
+- C11 compiler (GCC/Clang)
+- CMake 3.10+
+- No external dependencies (pure C)
+
 ## (WARNING!!)Assumptions & Limitations
  
 ### Mathematical Assumptions
@@ -126,7 +135,3 @@ Numerical-ML-in-C/
 - No sparse matrix support
 - CSV I/O not included (use Python/R for preprocessing)
 - Classification limited to discrete integer labels
-
-## Contributions
-
-If you find any errors in the documentation or bugs in the code, I would greatly appreciate it if you submitted a pull request so I can fix them. I'll take the time to check them.
