@@ -67,7 +67,7 @@ void rf_fit(RandomForest *rf, const Matrix *X, const Vector *y) {
     if (!rf || !X || !y) return;
 
     rf->n_features = X->cols;
-    /* FIX (n_classes frágil): usar helper robusto en lugar de vector_max */
+
     rf->n_classes  = compute_n_classes(y);
 
     if (rf->max_features <= 0)
