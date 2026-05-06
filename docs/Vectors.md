@@ -11,7 +11,9 @@ In C it is implemented with:
         int size;   // n dimension
     } Vector;
 
-![Vector](images/position_vector.png)
+|  |  |
+|--|--|
+|![Vector](images/position_vector.png) |**As we can see in the image**, in this case we have a vector with dimension $\mathbb{R}^3$ where we detect 4 very important things: <br><br> • It has an **origin**, in this case at (0,0,0) <br> • It has a **direction** defined by the point (3,4,10) <br> • It has a **sense**, in this case positive <br> • And finally it has a **magnitude** <br><br> In summary, what we see is a vector that is geometrically defined as an arrow from the origin (0,0,0) to the point (3,4,10). |
 
 ## Vectors in Machine Learning
 
