@@ -11,10 +11,7 @@ In C it is implemented with:
         int size;   // n dimension
     } Vector;
 
-```mermaid
-graph LR
-O((0,0)) --> V((2,3))
-```
+![Vector](images/vector.svg)
 
 ## Vectors in Machine Learning
 
