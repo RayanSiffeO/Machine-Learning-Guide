@@ -1,4 +1,23 @@
-# Vectors in Machine Learning
+# What is a vector?
+
+To know that it is a vector we need to know that it belongs to a vector space, v ∈ ℝⁿ, basically it is an ordered tuple of n real numbers:
+
+    v = (v₁, v₂, ..., vₙ)
+
+In C it is implemented with:
+
+     typedef struct {
+        double *data;   // dynamically allocated array of components
+        int size;   // n dimension
+    } Vector;
+
+$$
+\begin{tikzpicture}
+\draw[->] (0,0) -- (2,3);
+\end{tikzpicture}
+$$
+
+## Vectors in Machine Learning
 
 Understanding vectors in machine learning often seems optional, so people don't give it much importance. However, the truth is quite the opposite. Instead of seeing it as complicated or abstract mathematics, we should see it as a way to represent data and generate algorithms that work.
 Therefore, I will give you an overview of what vectors are used for and how they influence the work environment.
@@ -14,7 +33,7 @@ For other types of data such as text, word vectors are used with methods such as
 
 From this perspective, we can more easily see how ML models work. Many algorithms check how similar two data points are, using techniques such as Euclidean distances or dot products (which will be explained later). Many models are also built directly with vector calculations such as the famous linear regressor or neural networks, although they are used for model optimization (for example, the use of gradients).
 
-Okay, now that we have a simple explanation of why we use vectors, let's get started with the mathematical explanations. If you already know some of the topics, I'll provide an index of everything I'll explain so you can organize your thoughts and find what interests you.
+Okay, now that we have a simple explanation of why we use vectors, let's get started with the mathematical and computational explanations. If you already know some of the topics, I'll provide an index of everything I'll explain so you can organize your thoughts and find what interests you.
 
 ## Index
 
