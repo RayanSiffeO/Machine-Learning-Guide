@@ -11,7 +11,7 @@ In C it is implemented with:
         int size;   // n dimension
     } Vector;
 
-![Vector](images/Vectors.png)
+![Vector](images/position_vector.png)
 
 ## Vectors in Machine Learning
 
