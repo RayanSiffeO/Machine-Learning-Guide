@@ -11,11 +11,10 @@ In C it is implemented with:
         int size;   // n dimension
     } Vector;
 
-$$
-\begin{tikzpicture}
-\draw[->] (0,0) -- (2,3);
-\end{tikzpicture}
-$$
+```mermaid
+graph LR
+O((0,0)) --> V((2,3))
+```
 
 ## Vectors in Machine Learning
 
